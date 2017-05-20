@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|Roboto|Yellowtail");
+* {
+  box-sizing: border-box; }
+
+body {
+  background: whitesmoke;
+  font-family: 'Roboto', Arial, sans-serif; }
+
+.small-title {
+  font-family: 'Anton', 'Roboto', Arial, sans-serif;
+  color: #333;
+  padding: 20px 0; }
+
+.big-title {
+  font-family: 'Anton', 'Roboto', Arial, sans-serif;
+  color: #333;
+  padding: 20px 0; }
+
+.navbar {
+  margin: 0;
+  padding: 0; }
+  .navbar .navbar-header a {
+    color: brown; }
+
+.jumbotron {
+  background-position: fixed;
+  min-height: 350px;
+  height: auto;
+  width: 100%;
+  background-color: #eee; }
+  .jumbotron h1 {
+    padding-top: 50px;
+    margin: 0;
+    font-size: 80px;
+    font-family: 'Anton', 'Robot', Arial, sans-serif;
+    color: brown;
+    text-shadow: 0px 5px 2px black; }
+  .jumbotron .sub {
+    font-family: 'Yellowtail','Roboto', Arial, sans-serif;
+    font-size: 25px;
+    padding-top: 5px; }
+    .jumbotron .sub .num {
+      font-size: 40px;
+      text-decoration: underline;
+      color: brown;
+      text-shadow: 1px 1px 2px black; }
+
+.banner {
+  background: url("../images/banner-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: fixed;
+  height: 300px; }
+
+#services {
+  margin-top: 50px;
+  text-align: center; }
+  #services .logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+    transition: .2s ease-in-out; }
+    #services .logo:hover {
+      box-shadow: 0px 0px 20px black;
+      transform: scale(1.2); }
+
+#about .satisfaction {
+  height: auto;
+  width: 200px; }
+#about .self-port {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%; }
+
+/*# sourceMappingURL=styles.css.map */
